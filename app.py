@@ -36,7 +36,7 @@ def classify_image(img):
         unsafe_allow_html=True
     )
     
-    st.image(img, caption="Binary Representation of the File",width=700 , output_format='auto')
+    st.image(img, caption="Binary Representation of the File", use_column_width=True)
 
     
     prediction = model.predict(img)
