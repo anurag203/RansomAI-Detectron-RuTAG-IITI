@@ -97,7 +97,7 @@ def main():
         .main-header {
             font-size:28px;
             font-weight: bold;
-            color: #ffffff;
+            # color: #ffffff;
             text-align: center;
             margin-bottom: 50px;
         }
@@ -114,7 +114,7 @@ def main():
         .class4 {
             # font-size:28px;
             # font-weight: bold;
-            color: #ffffff;
+            # color: #ffffff;
             text-align: center;
             margin-bottom: 50px;
         }
