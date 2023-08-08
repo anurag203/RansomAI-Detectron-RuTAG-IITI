@@ -120,7 +120,7 @@ def main():
         }
         </style>
         <div class="class4">
-            Welcome to RansomAI Detectron, your all-in-one security solution. Upload any file, and instantly discover its safety status or let our advanced technology classify it into the latest 10 ransomware classes. We utilize cutting-edge deep learning, powered by a specially trained model with over 95% accuracy.
+            Welcome to RansomAI Detectron, your all-in-one security solution. Upload any file, and instantly discover its safety status or let our advanced technology classify it into the latest 28 ransomware classes. We utilize cutting-edge deep learning, powered by a specially trained model with over 95% accuracy.
         </div>
         """,
         unsafe_allow_html=True
