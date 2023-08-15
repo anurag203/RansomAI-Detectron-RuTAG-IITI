@@ -36,7 +36,7 @@ def classify_image(img):
         unsafe_allow_html=True
     )
     
-    st.image(img, caption="Binary Representation of the File",width=700 , output_format='auto')
+    st.image(img, caption="Binary Representation of the File", use_column_width=True)
 
     
     prediction = model.predict(img)
@@ -97,7 +97,7 @@ def main():
         .main-header {
             font-size:28px;
             font-weight: bold;
-            color: #ffffff;
+            # color: #ffffff;
             text-align: center;
             margin-bottom: 50px;
         }
@@ -114,13 +114,13 @@ def main():
         .class4 {
             # font-size:28px;
             # font-weight: bold;
-            color: #ffffff;
+            # color: #ffffff;
             text-align: center;
             margin-bottom: 50px;
         }
         </style>
         <div class="class4">
-            Welcome to RansomAI Detectron, your all-in-one security solution. Upload any file, and instantly discover its safety status or let our advanced technology classify it into the latest 10 ransomware classes. We utilize cutting-edge deep learning, powered by a specially trained model with over 95% accuracy.
+            Welcome to RansomAI Detectron, your all-in-one security solution. Upload any file, and instantly discover its safety status or let our advanced technology classify it into the latest 28 ransomware classes. We utilize cutting-edge deep learning, powered by a specially trained model with about 97% accuracy.
         </div>
         """,
         unsafe_allow_html=True
@@ -185,7 +185,7 @@ def main():
                         class_name = classify_image(resized_image)
 
 
-    if class_name is not "":
+    if class_name != "":
 
         st.markdown(
             """
