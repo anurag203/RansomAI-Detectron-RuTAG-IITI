@@ -1,7 +1,7 @@
 <!-- RansomAI Detectron -->
 
 <div align="center">
- <img width="1000" alt="FrontPage" src="https://github.com/anurag203/RansomAI-Detectron-RuTAG-IITI/assets/77426821/28185305-c5ac-440d-ab54-3e9e86f56fc0">
+ <img width="2000" alt="FrontPage" src="https://github.com/anurag203/RansomAI-Detectron-RuTAG-IITI/assets/77426821/28185305-c5ac-440d-ab54-3e9e86f56fc0">
 </div>
 
 # <div align="center">RansomAI <span style="color:#FF5733">Detectron</span></div>
@@ -50,4 +50,4 @@
 
 ## <span style="font-size:1.2em">Contact Us</span>
 
-- For inquiries or feedback, reach us at <a href="mailto:anuragagarwal203@gmail.com">your-email@example.com</a>.
+- For inquiries or feedback, reach us at <a href="mailto:anuragagarwal203@gmail.com">anuragagarwal203@gmail.com</a>.
